@@ -31,4 +31,4 @@ async def on_message_delete(message):
     msg = f'{message.author} has deleted the massage: {message.content}'
     await message.channel.send(msg)
 
-client.run("MTExMTk4OTEyNTYxNzI5NTQ2MA.GbGK7C.mVo29ZdPaFVGDmE7NDMtkEB1Lw9hbnnui9T7TI")
+client.run("token")
